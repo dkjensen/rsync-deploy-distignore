@@ -1,6 +1,6 @@
-# rsync-deploy
+# rsync-deploy-distignore
 
-Deploy to a remote server using rsync.
+Deploy to a remote server using rsync, excluding files and folders listed in a .distignore
 
 example usage to sync everything in the workspace folder:
 ```
