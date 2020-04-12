@@ -1,0 +1,10 @@
+# action.yml
+name: 'RSync Deploy .distignore Filter'
+description: 'Deploy to a remote server using rsync, excluding files and folders listed in a .distignore'
+author: 'David Jensen'
+branding:
+  icon: 'truck'
+  color: 'green'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
